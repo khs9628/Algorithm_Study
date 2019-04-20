@@ -8,8 +8,9 @@ public class A_insertNode {
 	   배열 a에서 index 위치 뒤의 값들을 한 칸씩 뒤로 밀고 (반복문으로 구현)
 	   index 위치에 value를 넣어라.
 	   
-	   0 1 2 3 4 -99 5 6 7 8
-
+	   출력결과 : 0 1 2 3 4 -99 5 6 7 8 
+			 0 1 2 3 4 -99 5 6 7 8 
+			 0 1 2 3 4 -99 5 6 7 8 
 */
 	
 	static void print(int[] a) {

@@ -1,6 +1,10 @@
 package recursive_basic;
 
 import java.util.Random;
+ /*
+   	랜덤으로 10개의 수(0~20)를 배열 a에 저장하고 작은 순서대로 출력하는 프로그램을 구현하라.
+ 	출력결과 :3 5 6 7 9 12 15 17 18 19 
+ */
 
 public class A_sortNode {
 	static void print(int[] a) {

@@ -6,7 +6,7 @@ public class A_removeNode {
 	static void remove(int[] a, int index) 메소드를 구현하라.
 	   배열 a에서 index 위치 뒤의 값들을 한 칸씩 앞으로 당기고 (반복문으로 구현)
 	   배열의 끝에 0을 대입하라.
-	   출력 : 0 1 2 3 4 6 7 8 9 0
+	   출력 결과 : 0 1 2 3 4 6 7 8 9 0
 	
 	*/	
 	

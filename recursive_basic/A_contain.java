@@ -6,6 +6,11 @@ import java.util.List;
 /*
  	contains 메소드를 구현하라.
 	contains 메소드는 트리에서 value를 찾아서 true/false를 리턴해야 한다.
+	
+	출력결과 :true
+		   true
+		   false
+
 */
 	
 class Node {
@@ -21,6 +26,7 @@ class Node {
         this.children.add(child);
     }
     
+   
     public boolean contains(int value) {
         if (this.value == value) return true;
         for (Node child : this.children)

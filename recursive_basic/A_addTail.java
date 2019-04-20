@@ -9,7 +9,7 @@ public class A_addTail {
 	먼저 반복문으로 addTail 메소드를 구현해 보고,
 	그 다음 재귀 호출로 다시 구현하라.
 	
-	0 1 2 3 4 5 6 7 8 9 10
+	출력 결과 : 0 1 2 3 4 5 6 7 8 9 10 
 
 */	
   static class Node {
