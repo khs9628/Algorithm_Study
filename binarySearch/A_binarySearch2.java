@@ -41,7 +41,26 @@ public class A_binarySearch2 {
         
 //      파리미터 값 value가 이진 트리에 들어있는지 여부를 true/false로 리턴하는 contains 메소드를 구현하라.
         public boolean contains(int value) {
-    
+            if (value < this.value) {
+                if (left == null) return false;
+                return left.contains(value);
+            }
+            else if (value > this.value) {
+                if (right == null) return false;
+                return right.contains(value);
+            }
+            return true;
+        }
+        
+        /*
+          
+        if (value < this.value) 
+            return left != null && left.contains(value);
+        else if (value > this.value) 
+            return right != null && right.contains(value);
+        return true;
+        
+        */
     }
 
     public static void main(String[] args) {

@@ -25,7 +25,14 @@ public class A_printStar {
     }
 
     static void print2(int n, int i, int j) {
-
+        if (i >= n) return;
+        System.out.print("*");
+        if (j < i)
+            print2(n, i, j + 1);
+        else {
+            System.out.println();
+            print2(n, i + 1, 0);
+        }
     }
 
     public static void main(String[] args) {

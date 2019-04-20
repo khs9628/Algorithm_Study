@@ -44,7 +44,12 @@ public class A_binarySearch {
 	    
 	    //재귀적으로 구성한 배열 이진 탐색을 구현해라
 	    static int search3(int[] a, int value, int start, int end) {
-	       
+	    	 if (start > end) return -1;
+		        int middle = (start + end) / 2;
+		        if (a[middle] < value) start = middle + 1;
+		        else if (a[middle] > value) end = middle - 1;
+		        else return middle;
+		        return search3(a, value, start, end);
 	    }
 
 	    public static void main(String[] args) {

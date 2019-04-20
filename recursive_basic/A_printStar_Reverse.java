@@ -17,10 +17,27 @@ public class A_printStar_Reverse {
 
 */
     static void print1(int n) {
-
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n - i - 1; ++j)
+                System.out.print(" ");
+            for (int j = 0; j <=  i; ++j)
+                System.out.print("*");
+            System.out.println();
+    }
     }
 
     static void print2(int n, int i, int j) {
+        if (i >= n) return;
+        if (j < n - i - 1)
+            System.out.print(" ");
+        else
+            System.out.print("*");
+        if (j < n - 1)
+            print2(n, i, j + 1);
+        else {
+            System.out.println();
+            print2(n, i + 1, 0);
+        }
 
     }
 
@@ -35,4 +52,4 @@ public class A_printStar_Reverse {
     }
 }
 
-}
+

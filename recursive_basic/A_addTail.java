@@ -2,7 +2,7 @@ package recursive_basic;
 
 public class A_addTail {
 	/*	
-    문제3 : addTail()
+    	
 	아래와 같이 출력되도록 addTail 메소드를 구현하라.
 	addTail 메소드는 링크드 리스트 끝에 value 값의 Node를 추가해야 한다.
 
